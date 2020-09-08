@@ -1,0 +1,18 @@
+{
+  "title": "postfix",
+  "description": "Blueprint for the postix mta",
+  "license": {
+    "label": "GNU GENERAL PUBLIC LICENSE V3",
+    "url": "http://www.gnu.org/copyleft/gpl.html"
+  },
+  "containers": [
+    {
+      "type": "lxd",
+      "image": "engines/beowulf/base/latest/ci"
+    }
+  ],
+  "config": {
+    "domain": "engines.org",
+    "mta/relayhost": "smtp.engines.org:465"
+  }
+}
