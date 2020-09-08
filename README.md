@@ -1,4 +1,4 @@
-# Postix
+# Postfix
 
 Installs a simple postfix configuration in its own container with a minimal
 configuration. This is intended to used on systems that have sensible defaults
